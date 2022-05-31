@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main(){
+	int i,j,m=1;
+	for (i=0;i<3;i++)
+	{
+		for (j=0;j<=i;j++)
+		{
+			printf("%d",m++);
+		}
+		printf("\n");
+	}
+}
+
+// 1
+// 23
+// 456
